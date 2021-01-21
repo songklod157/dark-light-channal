@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dark-Light</title>
+    <link rel="stylesheet" href="dark-light.css">
+</head>
+<body>
+    <section>
+        <div className="container">
+            <h1>Wellcome Songklod</h1>
+            <h3>What is lorem ipsum ?</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi laudantium velit aliquid explicabo iure inventore, quo ex maiores sint labore minima, iusto earum at. Cum aliquam dignissimos quisquam mollitia necessitatibus?</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic ea dolorum, natus laborum quaerat rerum veritatis laudantium perspiciatis doloremque! Rerum consectetur at laudantium vel nesciunt enim eos ut atque voluptas!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima excepturi architecto aliquid voluptatem optio expedita aliquam inventore ab maxime nemo nostrum, dolorum earum iusto sapiente quam, similique dignissimos hic dolor!</p><br>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi laudantium velit aliquid explicabo iure inventore, quo ex maiores sint labore minima, iusto earum at. Cum aliquam dignissimos quisquam mollitia necessitatibus?</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic ea dolorum, natus laborum quaerat rerum veritatis laudantium perspiciatis doloremque! Rerum consectetur at laudantium vel nesciunt enim eos ut atque voluptas!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima excepturi architecto aliquid voluptatem optio expedita aliquam inventore ab maxime nemo nostrum, dolorum earum iusto sapiente quam, similique dignissimos hic dolor!</p><br>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi laudantium velit aliquid explicabo iure inventore, quo ex maiores sint labore minima, iusto earum at. Cum aliquam dignissimos quisquam mollitia necessitatibus?</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic ea dolorum, natus laborum quaerat rerum veritatis laudantium perspiciatis doloremque! Rerum consectetur at laudantium vel nesciunt enim eos ut atque voluptas!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima excepturi architecto aliquid voluptatem optio expedita aliquam inventore ab maxime nemo nostrum, dolorum earum iusto sapiente quam, similique dignissimos hic dolor!</p>
+        </div>
+    </section>
+    <ul>
+        <li>
+            <span>DARK</span>
+            <span>LIHGT</span>
+        </li>
+    </ul>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function(){
+        $('ul').click(function(){
+            $('ul').toggleClass('active')
+            $('section').toggleClass('dark')
+        })
+    })
+
+    </script>
+
+    
+</body>
+</html>
